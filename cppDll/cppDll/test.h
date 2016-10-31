@@ -17,6 +17,7 @@ typedef struct
 } CppStruct;
 
 _DLLExport bool getStructData(CppStruct& d);
-// _DLLExport bool getStructData(CppStruct* d);
+_DLLExport bool getStructDataPtr(CppStruct* d);
+_DLLExport void setArrayData(int count, CppStruct* d);
 
 #endif
